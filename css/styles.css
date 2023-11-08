@@ -1,0 +1,414 @@
+/* CSS Reset: Normalize default styles for all HTML elements.*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Page Styling*/
+#container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    background-color: #84DCCF;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f1f1f1;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.home-image {
+    max-width: 900px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #f1f1f1;
+    color: #312F2F;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #84DCCF;
+    border: solid 1px;
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+}
+
+.parallel-menu {
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+/* Style for the "About Us" section */
+#about {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about-image {
+    max-width: 900px;
+}
+
+/* Two-column layout styles about*/
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    margin-left: 5%;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the "Locations" section */
+#locations {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.locations-image {
+    max-width: 900px;
+}
+
+/* Two-column layout styles locations*/
+.locations-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.locations-text {
+    flex: 1;
+    margin-left: 5%;
+}
+
+.locations-image {
+    flex: 1;
+    text-align: center;
+}
+
+.locations-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the "Our Team" section */
+#tean {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.team-image {
+    max-width: 900px;
+}
+
+/* Two-column layout styles locations*/
+.team-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.team-text {
+    flex: 1;
+    margin-left: 5%;
+}
+
+.team-image {
+    flex: 1;
+    text-align: center;
+}
+
+.team-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the entire contact form */
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    text-align: left;
+}
+
+/* Style for input fields, textarea, and select */
+.contact-form-items {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #84DCCF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #63C7BA;
+}
+
+/* Style for services image gallery */
+div.services-gallery {
+    margin: 5px;
+    border: 1px solid #84DCCF;
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+
+
+div.services-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.service-description {
+    padding: 15px;
+    text-align: center;
+}
+
+.service-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for store image gallery */
+div.store-gallery {
+    margin: 5px;
+    border: 1px solid #84DCCF;
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+
+div.store-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.store-description {
+    padding: 15px;
+    text-align: center;
+}
+
+.store-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the "Add to Cart" button */
+.add-to-cart-button {
+    padding: 5px 10px;
+    background-color: #84DCCF;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Change color of the button on hover */
+.add-to-cart-button:hover {
+    background-color: #63b8b5;
+}
+
+/* Style for news articles*/
+.news-article {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.news-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.news-content h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.news-content p {
+    margin: 0;
+}
+
+/*Link to events from news page*/
+.news-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.events-link {
+    background-color: #84DCCF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.events-link:hover {
+    background-color: #63C7BA;
+}
+
+
+/* Style for events*/
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #84DCCF;
+}
+
+.events-table th,
+.events-table td {
+    padding: 10px;
+    border: 1px solid #84DCCF;
+    text-align: center;
+}
+
+.events-table th {
+    background-color: #84DCCF;
+    color: #fff;
+    font-weight: bold;
+}
+
+.events-table tr:nth-child(2n) {
+    background-color: #f9f9f9;
+}
+
+.events-table tr:hover {
+    background-color: #63b8b5;
+    color: #fff;
+}
+
+/* Style for footer*/
+footer {
+    background-color: #84DCCF;
+    color: #312F2F;
+    text-align: center;
+    padding: 10px 0;
+}

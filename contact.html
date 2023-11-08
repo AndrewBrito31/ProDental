@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the CSS file in the "css" subfolder -->
+    <link rel="stylesheet" href="css/styles.css"> 
+    <!-- Webfonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>ProDental - Contact us</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="banner">
+                <a href="home.html" class="home-link">
+                    <img src="images/logo.jpg" alt="logo" class="logo">
+                </a>
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Services</a>
+                        <a href="store.html">Store</a>
+                        <a href="locations.html">Locations</a>
+                        <a href="team.html">Our Team</a>                        
+                    </div>
+                </div>
+                <a href="news.html" class="parallel-menu">News</a>
+                <a href="events.html" class="parallel-menu">Events</a>
+                <a href="contact.html" class="parallel-menu">Contact</a>
+            </div>
+        </header>
+
+        <main>
+            <section id="contact">
+                <h2>ProDental - Contact us</h2>
+                <br>
+                <form action="http://vip.groupehn.com:20003/html/infospost.php" method="POST">
+                    <label for="lastname">Last Name <span style="color: red">*</span></label>
+                    <input class="contact-form-items" id="lastname" type="text" name="lastname" required>
+                    <br>
+                    
+                    <label for="firstname">First Name <span style="color: red">*</span></label>
+                    <input class="contact-form-items" id="firstname" type="text" name="firstname" required>
+                    <br>
+                    
+                    <label for="email">Email <span style="color: red">*</span></label>
+                    <input class="contact-form-items" id="email" type="email" name="email" placeholder="yourmail@yahoo.com" required>
+                    <br>
+                    
+                    <label for="request">Request <span style="color: red">*</span></label>
+                    <textarea class="contact-form-items" name="request" id="request" cols="66" rows="10" required></textarea>
+                    <br>
+                    
+                    <label for="country">Country <span style="color: red">*</span></label>
+                        <select class="contact-form-items" name="country" id="country" required>
+                            <option value="" disabled selected>...</option>
+                            <option value="usa">USA</option>
+                            <option value="canada">Canada</option>
+                            <option value="uk">UK</option>
+                            <option value="france">France</option>
+                            <option value="italy">Italy</option>
+                            <option value="portugal">Portugal</option>
+                            <option value="japan">Japan</option>
+                            <option value="brasil">Brazil</option>
+                            <option value="other">Other</option>
+                        </select>                 
+                    </select>
+                    <br>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <h6>&copy; 2023 ProDental. All rights reserved.</h6>
+        </footer>
+    </div>
+</body>
+
+</html>
